@@ -1,3 +1,205 @@
-h1{
-    color: red;
+*{
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    
+}
+/* header styles */
+.header{
+    background-image: url(../images/banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100vh; 
+   
+}
+.header-text{
+    text-align: right;
+    color: white;
+    padding: 230px; 
+     
+}
+
+.header-title{
+    
+    font-size: 65px;
+    font-weight: 700;
+    
+    
+}
+.header-description{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.btn-primary a{
+    text-decoration: none;
+    color: #005FAC;
+}
+
+/* previous year section styles start */
+.previous-year{
+    margin: 130px 320px 130px 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+}
+.failure-title{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.failure-option{
+    margin-top: 20px;
+    color:#151414;
+    font-size: 18px;
+}
+.failure-text  p{
+    font-size: 20px;
+    color: #737272;
+}
+.failure-option p {
+    margin-bottom: 10px;
+    
+}
+.failure-option i{
+    color: rgb(101, 252, 202);
+    margin-right: 10px;
+}
+
+/* Plan section styles */
+.plan-title{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.plan-items{
+    display: flex;
+    padding: 0px 230px;
+    justify-content: space-between;
+    text-align: center;
+}
+.plan-item h4{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.plan-item p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
+/* mindset section styles */
+.mindset{
+    background:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:300px ;
+    margin: 130px 230px;
+    border-radius: 10px;
+    padding-top: 60px;
+    padding-left: 60px;
+    
+}
+
+.mindset-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 24px;
+}
+/* resume section styles */
+.resume{
+    margin: 130px 230px;
+}
+.resume-head{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 24px;
+    
+}
+.contain-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-title{
+    margin-top: 30px;
+}
+.institute{
+    color: #757575;
+    font-size:18px;
+    font-weight: 600;
+}
+
+.resume-description{
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+hr{
+    /* color: white; */
+    box-shadow: 0px 5px 50px rgba(0,0,0,0.05) ;
+}
+
+
+/* footer section start */
+.footer-container{
+    margin-top:130px;
+    padding: 130px 230px;
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 330px;
+}
+.information-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.information-description{
+    margin-bottom: 24px;
+}
+.icons img{
+    margin-right: 18px;
+}
+.form-title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.subscribe input[type="email"]{
+    height:50px;
+    width: 325px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border:1px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.subscribe input[type="submit"]{
+    background-color: #005FAC;
+    color: white;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
 }
